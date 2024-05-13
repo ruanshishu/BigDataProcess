@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     print('aa')
-    url = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-AC53559C-E22B-44B0-B80A-AA40662B98A3&format=JSON'
+    url = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=(API_KEY)&format=JSON'
     
     dict_example ={"city":[],"wx8":[],"maxt8":[],"mint8":[],"pop8":[]}
     
